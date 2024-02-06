@@ -1,1 +1,1 @@
-Ramen & Sushi dataset for educational TensorFlow model development.
+Educational datasets for TensorFlow model development.

@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_hub as hub
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
+
 
 def create_model_from_kaggle_tfhub(model_url, num_classes=10):
     """
